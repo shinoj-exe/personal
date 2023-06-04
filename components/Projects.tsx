@@ -23,7 +23,9 @@ const Projects = () => {
                     <div className='w-full ml-0 xl:w-1/2 flex flex-col gap-6 lgl: justify-between items-end text-right xl: -ml-16 z-10'>
                         <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
                         <h3 className='text-xl font-bold'>PharmaTrust: A cure for counterfeit drugs</h3>
-                        <p className='shadow-navbarShadow bg-[#112240] text-sm md: text-base p-2 md:p-6 rounded-md'>
+                        <p className='shadow-navbarShadow bg-[#112240] text-sm md:text-base p-2 xl:-ml-16 md:p-6 rounded-md'>
+                        {/* <p className='shadow-navbarShadow  bg-[#112240] text-sm md: text-base p-2 xl:-mr-16 md:p-6 rounded-md'> */}
+
                         This project utilizes blockchain technology to prevent the distribution of counterfeit drugs. By ensuring a secure and transparent system, it tracks medicine manufacturing, distribution, and consumption in real-time. This solution safeguards patient safety, enhances supply chain integrity, and mitigates the risks associated with counterfeit medications.
                         </p>
                         <ul className='text-xs md:text-sm font-titlefont tracking-wide flex gap-2 md: gap-5 justify-between text-textDark'>
@@ -81,7 +83,7 @@ const Projects = () => {
                     <div className='w-full ml-0 xl:w-1/2 flex flex-col gap-6 lgl: justify-between items-end text-right xl: -ml-16 z-10'>
                         <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
                         <h3 className='text-2xl font-bold'>SLACK Website Front-End Clone</h3>
-                        <p className='shadow-navbarShadow bg-[#112240] text-sm md: text-base p-2 md:p-6 rounded-md'>
+                        <p className='shadow-navbarShadow bg-[#112240] text-sm md: text-base p-2 xl:-ml-16 md:p-6 rounded-md'>
                         Built a fully functional clone of the website SLACK using HTML, CSS, and JavaScript, demonstrating proficiency in front-end web technologies and showcasing strong problem-solving skills in web development.
                         </p>
                         <ul className='text-xs md:text-sm font-titlefont tracking-wide flex gap-2 md: gap-5 justify-between text-textDark'>
