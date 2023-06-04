@@ -5,8 +5,8 @@ import CSBUDDY from './works/CSBUDDY'
 import IEEE from './works/IEEE'
 
 const Experience = () => {
-    const [tgh,setTgh]=useState(true);
-    const [ieee,setIeee]=useState(false);
+    const [tgh,setTgh]=useState(false);
+    const [ieee,setIeee]=useState(true);
     const [csbuddy,setCsbuddy]=useState(false);
 
     const handleTgh=()=>{
@@ -32,9 +32,8 @@ const Experience = () => {
         <SectionTitle titleHeading='Where I have worked' titleNo='2' />
         <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
             <ul className='md:w-32 flex flex-col'>
-                <li onClick={handleTgh} className={` ${tgh? " border-l-textGreen text-textGreen":"border-l-hoverColor text-textDark "} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>TGH Technologies</li>
             <li onClick={handleIeee}  className={` ${ieee? " border-l-textGreen text-textGreen":"border-l-hoverColor text-textDark "} border-l-2  text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>IEEE SB CET</li>
-
+                <li onClick={handleTgh} className={` ${tgh? " border-l-textGreen text-textGreen":"border-l-hoverColor text-textDark "} border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>TGH Technologies</li>
             <li  onClick={handleCsbuddy} className={` ${csbuddy? " border-l-textGreen text-textGreen":"border-l-hoverColor text-textDark "} border-l-2  text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>CSBUDDY</li>
             </ul>
             {
