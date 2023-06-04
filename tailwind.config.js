@@ -34,6 +34,7 @@ module.exports = {
       },
       colors:{
         bodyColor:"#0A192F",
+        navColor:"#0b1c35",
         textGreen:"#64ffda",
         textLight:"#ccd6f6",
         textDark:"#8892b0",

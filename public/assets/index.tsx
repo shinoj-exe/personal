@@ -5,4 +5,5 @@ import profileImg from "./images/profile.jpg"
 import pharmaTrustCover from './images/pharmaTrustCover.jpg'
 import socialNetwork from "./images/socialNetwork.png"
 import slackImage from './images/slackWebpage.png'
-export {image,logo_trial,logo,profileImg,pharmaTrustCover,socialNetwork,slackImage};
+import sjLogo from "./images/sj_logo.png"
+export {image,logo_trial,logo,profileImg,pharmaTrustCover,socialNetwork,slackImage,sjLogo};

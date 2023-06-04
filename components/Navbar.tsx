@@ -1,4 +1,4 @@
-import { logo } from '@/public/assets'
+import { logo,sjLogo } from '@/public/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 import {TbBrandGithub,TbBrandTwitter,TbBrandWhatsapp,TbBrandInstagram,TbBrandLinkedin} from "react-icons/tb"
@@ -31,11 +31,11 @@ const Navbar = () => {
     }
   }
   return (
-    <div className="w-full shadow-navbarShadow h-20 1g:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+    <div className="w-full shadow-navbarShadow h-20 1g:h-[12vh] sticky top-0 z-50 bg-navColor px-8">
       <div className="max-w-container h-full mx-auto py-1 font-titlefont flex items-center justify-between ">
         <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}}>
-          {/* <Image className='w-14' src={logo} alt="Logo" /> */}
-          <span className='text-base md:text-lg text-textGreen '>SHINOJ</span>
+          <a onClick={handleScroll} href="#home"><Image className='w-14' src={sjLogo} alt="Logo" /></a>
+          {/* <span className='text-base md:text-lg text-textGreen '>SHINOJ</span> */}
         </motion.div>
         <div className="hidden mdl:inline-flex items-center gap-7">
           <ul className='flex text-[12px] gap-7'>
