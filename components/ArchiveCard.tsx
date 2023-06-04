@@ -18,7 +18,7 @@ const ArchiveCard = ({title,desc,listItem,link}:Props) => {
             </div>
             <div>
                 <h2 className='text-xl font-titleFont font-semibold tracking-wide group-hover:text-textGreen'>{title}</h2>
-                <p className='text-sm mt-3'>{desc}</p>
+                <p className='text-xs mt-3'>{desc}</p>
             </div>
             <ul className='text-xs md:text-sm text-textDark flex items-center gap-2 justify-between flex-wrap'>
                 {
