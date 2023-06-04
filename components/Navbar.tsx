@@ -82,7 +82,7 @@ const Navbar = () => {
             <div className='absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end' ref={(node)=>(ref.current=node)} onClick={handleClick} >
               <motion.div initial={{ x:20, opacity: 0 }}
                        animate={{x:0, opacity: 1 }}
-                       transition={{ delay: 0.1 }} className='w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative'>
+                       transition={{ delay: 0.1 }} className='w-[80%] h-full scrollbarHide bg-[#112240] flex flex-col items-center px-4 py-10 relative'>
                         <IoMdClose onClick={()=>setShowMenu(false)} className='text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4'/>
                         <div className='flex flex-col  items-center gap-7'>
                         <ul className='flex flex-col  items-center gap-7'>
