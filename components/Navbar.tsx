@@ -133,7 +133,7 @@ const Navbar = () => {
 
 
                         </div>
-                        <motion.a initial={{ opacity : 0}} animate={{ opacity : 1}} transition={{ delay : 1.2, ease : "easeIn"}} className="text-sm w-72 tracking-widest text-textGreen text-center mt-4" href="mailto : noor.jsdivs@gmail.com"> <p>reactbd@proton.me</p> </motion.a>
+                        <motion.a initial={{ opacity : 0}} animate={{ opacity : 1}} transition={{ delay : 1.2, ease : "easeIn"}} className="text-sm w-72 tracking-widest text-textGreen text-center mt-4" href="mailto : shinojmuralee@gmail.com"> <p>shinojmuralee@gmail.com</p> </motion.a>
               </motion.div>
             </div>
           )

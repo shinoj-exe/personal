@@ -20,7 +20,7 @@ const Projects = () => {
                         <div className='hidden mdl:inline-flex absolute w-full h-full bg-textGreen/30 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
                     </div>
                     </a>
-                    <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl: justify-between items-end text-right xl: -ml-16 z-10'>
+                    <div className='w-full ml-0 xl:w-1/2 flex flex-col gap-6 lgl: justify-between items-end text-right xl: -ml-16 z-10'>
                         <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
                         <h3 className='text-xl font-bold'>PharmaTrust: A cure for counterfeit drugs</h3>
                         <p className='shadow-navbarShadow bg-[#112240] text-sm md: text-base p-2 md:p-6 rounded-md'>
@@ -78,7 +78,7 @@ const Projects = () => {
                         <div className='hidden mdl:inline-flex absolute w-full h-full bg-textGreen/30 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300'></div>
                     </div>
                     </a>
-                    <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl: justify-between items-end text-right xl: -ml-16 z-10'>
+                    <div className='w-full ml-0 xl:w-1/2 flex flex-col gap-6 lgl: justify-between items-end text-right xl: -ml-16 z-10'>
                         <p className='font-titleFont text-textGreen text-sm tracking-wide'>Featured Project</p>
                         <h3 className='text-2xl font-bold'>SLACK Website Front-End Clone</h3>
                         <p className='shadow-navbarShadow bg-[#112240] text-sm md: text-base p-2 md:p-6 rounded-md'>
