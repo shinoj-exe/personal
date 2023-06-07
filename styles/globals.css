@@ -5,3 +5,23 @@
 .active{
     color:#64ffda
 }
+
+.brand-logo:hover{
+    animation-name: rotation;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 2.3s;
+}
+
+@keyframes rotation {
+    0% {
+      transform: rotate3d(0, 1, 0, 0deg);
+    }
+    50% {
+      transform: rotate3d(0, 1, 0, 180deg);
+    }
+    100% {
+      transform: rotate3d(0, 1, 0, 360deg);
+    }
+  }
+  
