@@ -9,7 +9,7 @@ import {TfiNewWindow} from "react-icons/tfi"
 const Projects = () => {
   return (
     <section id='project' className='max-w-container mx-auto lgl:px-32 py-24'>
-        <SectionTitle titleHeading='Some Projects I’ve Built' titleNo='2' />
+        <SectionTitle titleHeading='Some Projects I’ve Built' titleNo='3' />
         <div className='w-full flex flex-col items-center justify-between gap-24 mt-10'>
             {/* project 1 */}
             <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>

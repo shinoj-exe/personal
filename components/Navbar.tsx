@@ -65,7 +65,7 @@ const Navbar = () => {
                        transition={{ duration: 0.1,delay:0.4}}><span className='text-textGreen'>0.4</span> Contact</motion.li>
             </Link>
           </ul>
-          <a href="/assets/Resume_Shinoj_Muraleedharan.pdf" target='_blank'>
+          <a href="/assets/Shinoj_Muraleedharan_Resume.pdf" target='_blank'>
 
           <motion.button initial={{  opacity: 0 }}
                        animate={{ opacity: 1 }}
@@ -112,7 +112,7 @@ const Navbar = () => {
                        transition={{ duration: 0.2,delay:0.5,ease:"easeIn" }}><span className='text-textGreen'>0.4</span> Contact</motion.li>
             </Link>
           </ul>
-          <a href="/assets/Resume_Shinoj_Muraleedharan.pdf" target='_blank'>
+          <a href="/assets/Shinoj_Muraleedharan_Resume.pdf" target='_blank'>
 
           <motion.button initial={{ x: 20, opacity: 0 }}
                        animate={{ x: 0, opacity: 1 }}
